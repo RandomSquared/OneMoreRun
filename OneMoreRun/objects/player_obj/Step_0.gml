@@ -294,3 +294,65 @@ if(time > 960){	/// @DnDAction : YoYo Games.Common.If_Variable
 			if (layer_exists("Background_stream")) {
 			    layer_x("Background_stream", 0);
 			}}}}
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+/// @DnDVersion : 1
+/// @DnDHash : 3B44CE7D
+/// @DnDArgument : "key" "ord("R")"
+var l3B44CE7D_0;l3B44CE7D_0 = keyboard_check_pressed(ord("R"));if (l3B44CE7D_0){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 6AB40EDF
+	/// @DnDParent : 3B44CE7D
+	/// @DnDArgument : "expr" "600"
+	/// @DnDArgument : "var" "x"
+	x = 600;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 03B6EA31
+	/// @DnDParent : 3B44CE7D
+	/// @DnDArgument : "expr" "1850"
+	/// @DnDArgument : "var" "y"
+	y = 1850;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 4C373132
+	/// @DnDParent : 3B44CE7D
+	/// @DnDArgument : "var" "hsp"
+	hsp = 0;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 608E31FF
+	/// @DnDParent : 3B44CE7D
+	/// @DnDArgument : "var" "vsp"
+	vsp = 0;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 1F8C94FD
+	/// @DnDParent : 3B44CE7D
+	/// @DnDArgument : "var" "time"
+	time = 0;
+
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 19BFFFA3
+	/// @DnDParent : 3B44CE7D
+	/// @DnDArgument : "code" "if (layer_exists("Background")) {$(13_10)    layer_x("Background", 0);$(13_10)}$(13_10)if (layer_exists("Background_stars")) {$(13_10)    layer_x("Background_stars", 0);$(13_10)}$(13_10)if (layer_exists("Background_stars2")) {$(13_10)    layer_x("Background_stars2", 0);$(13_10)}$(13_10)if (layer_exists("Background_clouds")) {$(13_10)    layer_x("Background_clouds", 0);$(13_10)}$(13_10)if (layer_exists("Background_stream")) {$(13_10)    layer_x("Background_stream", 0);$(13_10)}$(13_10)"
+	if (layer_exists("Background")) {
+	    layer_x("Background", 0);
+	}
+	if (layer_exists("Background_stars")) {
+	    layer_x("Background_stars", 0);
+	}
+	if (layer_exists("Background_stars2")) {
+	    layer_x("Background_stars2", 0);
+	}
+	if (layer_exists("Background_clouds")) {
+	    layer_x("Background_clouds", 0);
+	}
+	if (layer_exists("Background_stream")) {
+	    layer_x("Background_stream", 0);
+	}}
